@@ -1,0 +1,99 @@
+Question,Answer
+What is the main purpose of cross-validation?,"Cross-validation is used to assess how well a model generalizes to unseen data, helping to prevent overfitting."
+How does Lasso Regression differ from Ridge Regression?,"Lasso regression applies an L1 penalty, encouraging sparsity by setting some coefficients to zero, while Ridge regression applies an L2 penalty, shrinking coefficients without setting any to zero."
+What is regularization in machine learning?,Regularization is a technique to reduce model complexity and prevent overfitting by adding a penalty to larger coefficients.
+Explain the bias-variance tradeoff.,The bias-variance tradeoff is the balance between underfitting (high bias) and overfitting (high variance).
+What is the purpose of Random Forests?,Random Forests reduce variance by averaging multiple decision trees built on bootstrapped samples and randomized features.
+How does boosting differ from bagging?,"Boosting builds a sequence of weak learners, each correcting the errors of the previous one, while bagging averages models trained on different bootstrapped samples."
+What is the main advantage of using Random Forests?,Random Forests reduce overfitting by averaging multiple decision trees and decorrelating features.
+What is the goal of Principal Component Analysis (PCA)?,PCA aims to reduce the dimensionality of a dataset by transforming it into a set of orthogonal components that capture the most variance.
+What does the term 'overfitting' refer to?,"Overfitting occurs when a model is too complex and captures noise in the training data, leading to poor generalization on unseen data."
+What are support vectors in SVM?,Support vectors are the data points that lie closest to the decision boundary and influence the position and orientation of the hyperplane.
+Explain the concept of kernel methods in SVM.,Kernel methods allow SVMs to create nonlinear decision boundaries by implicitly mapping data into a higher-dimensional space.
+What is the purpose of logistic regression?,Logistic regression models the probability of a binary outcome as a function of predictor variables.
+How does boosting improve model performance?,"Boosting improves model performance by iteratively training weak learners, with each learner focusing on the errors of the previous ones."
+What is bagging in ensemble learning?,Bagging (Bootstrap Aggregating) involves training multiple models on different subsets of the data and averaging their predictions to reduce variance.
+What is the purpose of shrinkage in gradient boosting?,"Shrinkage reduces the impact of each tree in gradient boosting, preventing overfitting by slowing down the learning process."
+What is the 'curse of dimensionality'?,The curse of dimensionality refers to the exponential increase in data sparsity and computational complexity as the number of features grows.
+How does the AdaBoost algorithm work?,"AdaBoost trains weak classifiers on weighted datasets, with each classifier focusing on the errors made by previous ones, combining them to form a strong classifier."
+What is the purpose of Ridge regression?,Ridge regression reduces model complexity and multicollinearity by adding an L2 penalty to the regression coefficients.
+What is the main difference between supervised and unsupervised learning?,"Supervised learning involves training models on labeled data, while unsupervised learning finds patterns in unlabeled data."
+How is model complexity related to bias and variance?,"As model complexity increases, bias decreases and variance increases, leading to a tradeoff between the two."
+How does the EM algorithm work in Gaussian Mixture Models?,The EM algorithm iteratively estimates the parameters of Gaussian Mixture Models by maximizing the likelihood of the data.
+What is the purpose of Least Absolute Shrinkage and Selection Operator (Lasso)?,"Lasso performs both variable selection and regularization by shrinking some coefficients to zero, creating sparse models."
+How does k-means clustering work?,K-means clustering partitions data into k clusters by assigning each point to the nearest centroid and iteratively updating the centroids.
+What is the purpose of support vector machines (SVM)?,SVMs aim to find the optimal hyperplane that separates data points of different classes with the maximum margin.
+How does PCA handle data with high dimensionality?,PCA reduces high-dimensional data by projecting it onto the principal components that capture the most variance.
+What is the advantage of ensemble learning methods?,Ensemble learning methods combine multiple models to improve prediction accuracy and robustness.
+How does boosting avoid overfitting?,Boosting avoids overfitting by using weak learners and applying regularization techniques like shrinkage and early stopping.
+What is the significance of the margin in SVM?,The margin in SVM refers to the distance between the decision boundary and the closest data points from either class. A larger margin leads to better generalization.
+How does neural network backpropagation work?,Backpropagation adjusts the weights of a neural network by calculating the gradient of the error with respect to each weight and updating them in the opposite direction.
+What is the purpose of cross-validation in model selection?,"Cross-validation helps select the best model by estimating its performance on unseen data, preventing overfitting."
+What is the 'decision boundary' in classification?,A decision boundary is the surface that separates different classes in a classification problem.
+How does gradient boosting differ from AdaBoost?,"Gradient boosting builds models sequentially, using gradient descent to minimize a loss function, while AdaBoost adjusts the data weights based on classification errors."
+What is overfitting in the context of decision trees?,"Overfitting in decision trees occurs when the tree becomes too complex, capturing noise in the data and failing to generalize well to new data."
+What is the purpose of regularization in logistic regression?,Regularization in logistic regression prevents overfitting by adding a penalty to the size of the regression coefficients.
+How does the support vector machine handle nonlinearly separable data?,"SVM handles nonlinearly separable data by mapping it to a higher-dimensional space using kernel functions, where a linear separation is possible."
+How does early stopping prevent overfitting in boosting?,"Early stopping halts the boosting process when the model's performance on a validation set stops improving, preventing overfitting to the training data."
+What is bagging in random forests?,Bagging in random forests refers to training multiple decision trees on bootstrapped samples and averaging their predictions to reduce variance.
+How does Ridge regression handle multicollinearity?,"Ridge regression handles multicollinearity by adding a penalty to the size of the regression coefficients, reducing their variance."
+What is the purpose of hyperparameters in machine learning?,Hyperparameters control the learning process and must be tuned to achieve optimal performance of the model.
+How does the kernel trick work in support vector machines?,"The kernel trick allows SVMs to compute the dot product in a higher-dimensional space without explicitly transforming the data, making the computation more efficient."
+How does decision tree pruning work?,Decision tree pruning removes branches that have little importance to prevent overfitting and improve generalization.
+What is the main difference between decision trees and random forests?,"Decision trees are single models, while random forests combine multiple decision trees trained on different subsets of data."
+What is the purpose of gradient descent in machine learning?,Gradient descent is an optimization algorithm used to minimize the loss function by updating model parameters in the direction of the negative gradient.
+How does logistic regression model a binary outcome?,Logistic regression models a binary outcome using a sigmoid function to output probabilities between 0 and 1.
+What is a hyperplane in SVM?,A hyperplane in SVM is a decision boundary that separates data points into different classes in a feature space.
+What is meant by feature scaling in machine learning?,Feature scaling standardizes the range of independent variables to ensure that no feature dominates others in importance.
+What is the soft margin in SVM?,A soft margin in SVM allows some misclassifications in order to improve the generalization of the model.
+How does a convolutional neural network (CNN) differ from a fully connected neural network?,"CNNs use convolutional layers to detect spatial hierarchies in images, while fully connected neural networks treat all inputs equally."
+What are activation functions in neural networks?,"Activation functions introduce non-linearity to neural networks, allowing them to learn complex patterns."
+How does dropout prevent overfitting in neural networks?,Dropout randomly sets a portion of neurons to zero during training to prevent overfitting by encouraging redundancy in the model.
+What is an epoch in neural network training?,An epoch is one complete pass through the entire training dataset in a neural network.
+What is the purpose of validation data during training?,Validation data is used to tune hyperparameters and assess the model's generalization performance during training.
+How does backpropagation compute the gradient in neural networks?,Backpropagation computes the gradient of the loss function with respect to each weight by using the chain rule.
+What is the purpose of ensemble methods like bagging and boosting?,Ensemble methods combine multiple models to improve accuracy and reduce variance or bias.
+What is grid search in hyperparameter tuning?,Grid search is a hyperparameter tuning technique that exhaustively tests a predefined set of hyperparameter combinations.
+How does random search differ from grid search in hyperparameter tuning?,"Random search samples hyperparameter combinations randomly, instead of testing every combination as in grid search."
+What is overfitting in neural networks?,"Overfitting in neural networks occurs when the model memorizes the training data, performing poorly on new data."
+How does Ridge regression shrink model coefficients?,"Ridge regression adds an L2 penalty, which shrinks the magnitude of the coefficients to prevent overfitting."
+What is the purpose of the bias term in linear models?,"The bias term allows the model to shift the decision boundary away from the origin, improving flexibility."
+How does the perceptron algorithm work?,The perceptron algorithm updates weights iteratively based on classification errors to find a separating hyperplane.
+What is the difference between hard and soft classification?,"Hard classification assigns a definitive class label, while soft classification outputs probabilities for each class."
+How do decision trees handle continuous variables?,Decision trees handle continuous variables by creating splits based on threshold values.
+What is the Gini index used for in decision trees?,"The Gini index measures the impurity of a node, with lower values indicating purer splits in decision trees."
+What are leaf nodes in a decision tree?,Leaf nodes in a decision tree represent final class labels or predictions.
+How does boosting differ from random forests in ensemble learning?,"Boosting corrects the errors of prior models in sequence, while random forests build trees independently."
+How does the EM algorithm optimize parameters in Gaussian Mixture Models?,The EM algorithm iterates between estimating membership probabilities (E-step) and updating model parameters (M-step) in Gaussian Mixture Models.
+What are the key steps in k-means clustering?,"K-means clustering involves randomly initializing centroids, assigning points to clusters, and updating centroids until convergence."
+What is the role of distance metrics in k-nearest neighbors (KNN)?,Distance metrics like Euclidean distance determine the proximity of a data point to its neighbors in KNN.
+What is a confusion matrix in classification tasks?,"A confusion matrix displays the true positives, false positives, true negatives, and false negatives of a classification model."
+What is precision in classification?,"Precision is the ratio of true positives to the total predicted positives, indicating the accuracy of positive predictions."
+What is recall in classification?,"Recall is the ratio of true positives to the total actual positives, indicating the ability to find all positive instances."
+How is F1-score computed?,"The F1-score is the harmonic mean of precision and recall, providing a balance between the two metrics."
+What is the difference between accuracy and precision?,"Accuracy measures the overall correctness of the model, while precision focuses on the accuracy of positive predictions."
+What is ROC curve in classification?,An ROC curve shows the trade-off between the true positive rate and the false positive rate across different thresholds.
+What is AUC (Area Under Curve) in ROC analysis?,"AUC represents the area under the ROC curve, indicating the overall performance of a classification model."
+How does SVM handle outliers?,"SVM handles outliers by using a soft margin, allowing some points to be on the wrong side of the hyperplane."
+What is the purpose of dropout in deep learning?,Dropout prevents overfitting by randomly omitting units during training to reduce dependency on specific neurons.
+How does the sigmoid activation function work?,"The sigmoid function outputs values between 0 and 1, commonly used for binary classification problems."
+What is meant by the term 'hyperparameter optimization'?,Hyperparameter optimization involves selecting the best parameters for a model to achieve optimal performance.
+What are convolutional layers used for in CNNs?,Convolutional layers extract spatial features like edges and textures from images in CNNs.
+What is the vanishing gradient problem in deep learning?,"The vanishing gradient problem occurs when gradients become too small during backpropagation, hindering learning in deep networks."
+What is the difference between batch and stochastic gradient descent?,"Batch gradient descent uses the entire dataset to compute gradients, while stochastic gradient descent uses one sample at a time."
+What is a decision boundary in classification?,"A decision boundary separates different classes in a classification task, guiding predictions."
+What is the learning rate in gradient descent?,The learning rate controls the size of the steps taken by gradient descent to update model parameters.
+What is a neural network layer?,A neural network layer is a collection of neurons that transform input data into useful representations for subsequent layers.
+How does data augmentation help in training models?,Data augmentation artificially increases the size of the training dataset by creating modified versions of existing data.
+What is the role of the optimizer in neural networks?,The optimizer adjusts model parameters during training to minimize the loss function.
+What is feature selection in machine learning?,Feature selection involves selecting the most important variables for a model to improve performance and reduce overfitting.
+How does the k-fold cross-validation method work?,"K-fold cross-validation divides data into k subsets, using k-1 for training and 1 for validation, repeated k times."
+What is a confusion matrix used for?,A confusion matrix is used to assess the performance of a classification model by comparing actual and predicted labels.
+What is sensitivity in classification metrics?,Sensitivity measures the proportion of actual positives correctly identified by the model.
+What is specificity in classification metrics?,Specificity measures the proportion of actual negatives correctly identified by the model.
+What is an ensemble method in machine learning?,Ensemble methods combine multiple models to improve prediction accuracy and reduce generalization errors.
+What is a false positive in a classification task?,A false positive occurs when a model incorrectly predicts a positive class for a negative instance.
+What is a true positive in a classification task?,A true positive occurs when a model correctly predicts a positive class for a positive instance.
+How do ensemble methods improve prediction accuracy?,Ensemble methods improve accuracy by combining the strengths of multiple models.
+What is PCA used for in dimensionality reduction?,PCA is used to reduce the dimensionality of data by transforming features into principal components that capture the most variance.
+What are latent variables in machine learning models?,Latent variables are hidden variables that are not directly observed but inferred from other variables in a model.

@@ -1,0 +1,8 @@
+numpy
+transformers
+ipykernel
+peft
+scikit-learn
+pandas
+evaluate
+torch
